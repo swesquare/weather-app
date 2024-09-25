@@ -3,36 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <title>Meteo App</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city ..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49 , scattered clouds<br />
-          Humidity : 66% , Wind : 3.13 km/h
-        </p>
-      </div>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city ..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49 , scattered clouds<br />
+            Humidity : 66% , Wind : 3.13 km/h
+          </p>
+        </div>
 
-      <div>⛅ 12 °C</div>
-    </main>
+        <div>⛅ 12 °C</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/swesquare/" target="_blank"> Swe Swe</a>hosted
-      on
-      <a href="https://github.com/swesquare/weather-app" target="_blank"
-        >GitHub</a
-      >
-      and website hosted on
-      <a href="https://weather-app-swe.vercel.app/" target="_blank">Vercel</a>
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/swesquare/" target="_blank"> Swe Swe</a
+        >hosted on
+        <a href="https://github.com/swesquare/weather-app" target="_blank"
+          >GitHub</a
+        >
+        and website hosted on
+        <a href="https://weather-app-swe.vercel.app/" target="_blank">Vercel</a>
+      </footer>
+    </div>
   </body>
 </html>
